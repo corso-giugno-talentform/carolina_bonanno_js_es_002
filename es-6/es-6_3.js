@@ -1,13 +1,14 @@
-// Devo usare %
+let myName = 'Carolina';
+let lastName = 'Bonanno';
 
 for (i=1; i<=30; i++) {
    if (i % 3 === 0 && i % 5 === 0) {
-        console.log("Carolina Bonanno");
+        console.log(myName + ' ' + lastName);
     } else {
         if (i % 3 === 0) {
-            console.log("Carolina");
+            console.log(myName);
         } else if (i % 5 === 0) {
-            console.log("Bonanno");
+            console.log(lastName);
         } else {
              console.log(i)
         }  
