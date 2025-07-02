@@ -34,12 +34,12 @@ switch (mese) {
         console.log('È inverno!');
         break;
     case (mese == 4 || mese == 5 || mese == 6):
-        console.log('È inverno!');
+        console.log('È primavera!');
         break;
     case (mese == 7 || mese == 8 || mese == 9):
-        console.log('È inverno!');
+        console.log('È estate!');
         break;
     case (mese == 10 || mese == 11 || mese == 12):
-        console.log('È inverno!');
+        console.log('È autunno!');
         break;
 } */
